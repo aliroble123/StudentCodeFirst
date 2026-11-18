@@ -1,42 +1,44 @@
-# StudentCodeFirst
+# C# Projects – The Tech Academy
 
-A basic C# Console Application using Entity Framework 6 Code-First.
+Welcome to my C# Projects repository. This repository contains assignments and projects I completed while studying C# programming and .NET development at The Tech Academy.
 
-## What is Code-First?
+## Projects
 
-Code-First is an Entity Framework approach where the developer creates C# model classes first. Entity Framework uses those classes and the DbContext configuration to create the database schema.
+### 1. C# Method Assignment
+A C# project created to practice writing and using methods in a console application.
 
-## Project files
+**Skills:** C#, methods, parameters, and programming logic.
 
-- `Student.cs` - Student entity/model class.
-- `StudentContext.cs` - Database context derived from `DbContext`, with a `DbSet<Student>`.
-- `Program.cs` - Adds one student, saves the change, and reads students back.
-- `App.config` - LocalDB connection string and Entity Framework provider configuration.
+### 2. Employee Operator Overloading
+A C# console application demonstrating operator overloading. It uses the `==` and `!=` operators to compare Employee objects by their `Id` property.
 
-## Requirements
+**Skills:** C#, classes, objects, properties, and operator overloading.
 
-- Visual Studio with .NET Framework 4.7.2 targeting pack
-- SQL Server LocalDB
-- Entity Framework 6.4.4 (restored from NuGet)
+### 3. IQuittable Assignment
+A C# assignment demonstrating the use of an interface and implementing its method in a class.
 
-## Run
+**Skills:** C#, interfaces, classes, and object-oriented programming.
 
-1. Open `StudentCodeFirst.csproj` in Visual Studio.
-2. Restore NuGet packages.
-3. Build the project.
-4. Run the console application.
+## Technologies Used
 
-Entity Framework Code-First creates `StudentCodeFirstDB` in LocalDB when the context first accesses the database. The program inserts a sample student named John Smith.
+- C#
+- .NET
+- Visual Studio
+- Git
+- GitHub
 
-Note: Running the program again inserts another sample row. This is a simple demonstration of adding a student.
+## Skills Developed
 
-## Research references
+- Object-Oriented Programming (OOP)
+- Classes and objects
+- Methods and parameters
+- Interfaces
+- Operator overloading
+- C# programming logic
+- Building console applications
+- Version control with Git and GitHub
 
-- Microsoft Learn, **Code First to a New Database (EF6)**:
-  https://learn.microsoft.com/en-us/ef/ef6/modeling/code-first/workflows/new-database
-- Microsoft Learn, **Working with DbContext (EF6)**:
-  https://learn.microsoft.com/en-us/ef/ef6/fundamentals/working-with-dbcontext
-- Entity Framework Tutorial, **What is Code First?**:
-  https://www.entityframeworktutorial.net/code-first/what-is-code-first.aspx
+## Author
 
-The EF6 workflow defines model classes first, creates a context derived from `DbContext`, exposes model sets through `DbSet<TEntity>`, and uses the context to save and query records.
+Ali Roble
+
